@@ -1,10 +1,10 @@
 
 import asyncio
-
 from agent_framework import Agent
 from agent_framework.openai import OpenAIChatClient
 from httpx import request
-
+import os
+from dotenv import load_dotenv
 
 from talos_agent.agent_tools import inspect_ship, observe_sea
 

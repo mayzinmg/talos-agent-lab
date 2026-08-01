@@ -40,4 +40,9 @@ def inspect_ship(
         Field(description="The exact ship name returned by observe_sea."),
     ],
 ) -> dict[str, str | int]:
-    return inspection_report(ship_name)
+    tool_result = inspection_report(ship_name)
+
+    print(f"\n[TOOL CALLED] inspect_ship(ship_name={ship_name!r})")
+    print(f"[TOOL RESULT] {tool_result}")
+
+    return tool_result
