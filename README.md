@@ -10,6 +10,7 @@ By the end of Chapter 1, Talos will be able to perform his guard duties as a sim
 He will observe approaching ships, use approved tools to gather information, assess the situation, and recommend a safe response to protect Crete.
 
 At this stage, Talos will not perform destructive actions, retain long-term memory, learn from previous encounters, or create complex plans.
+
 ## Current Status
 
 ## Technology Stack
